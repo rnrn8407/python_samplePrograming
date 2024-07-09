@@ -16,7 +16,7 @@ class Application(tkinter.Frame):#tkinter.Frameを継承したApplicationクラ�
         quit_btn=tkinter.Button(self)#ボタンウィジェットを作成
         quit_btn["text"]="閉じる"#ボタンのテキストを設定
         quit_btn["command"]=self.root.destroy#ボタンがクリックされたときにウィンドウを閉じるコマンド
-        quit_btn.pack(side="bottom")#ボタンの位置をしたに設定
+        quit_btn.pack(side="bottom")#ボタンの位置を下に設定
 
     def create_widgets_text(self):
         self.text_box=tkinter.Entry(self)
